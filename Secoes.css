@@ -1,0 +1,263 @@
+.menu{
+    height: 42px;
+    border: 1px solid rgb(214, 11, 2);
+    background-color: rgb(233, 233, 179);
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+.navMenu ul{
+    list-style: none;
+    text-align: left;
+}
+
+.navMenu ul li {
+    display: inline;
+}
+
+.navMenu ul li a {
+    padding-left: 1vw;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+}
+
+.navMenu ul li a:hover{
+
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 
+    CONFIGURACOES DO MENU PRINCIPAL
+*/
+
+#inicio, #cursos, #contatos, #parceiros, #missao, #sobre, footer{
+    text-align: center;
+}
+
+#inicio{
+    height: 40vh;
+    background-color: grey;
+    border: 1px double white;
+}
+
+#cursos{
+    height: 50vh;
+    background-color: yellow;
+    border: 1px double fuchsia;
+}
+
+#contatos{
+    height: 20vh;
+    border: 1px double white;
+    background-color: burlywood;
+
+}
+
+#parceiros{
+    height: 50vh;
+    border: 1px double white;
+    background-color: darkseagreen;
+}
+
+#missao{
+    height: 30vh;
+    border: 1px double black;
+    background-color: cyan;
+}
+
+#sobre{
+    height: 35vh;
+    border: 1px double fuchsia;
+    background-color: silver;
+}
+
+/*
+    CONFIGURAÇAO DE RETORNO DAS ANCORAS
+*/
+
+.voltarTopo,.irInicio,.irContatos,.irCursos,.irMissao, .irParceiros, .irSobre{
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+    position: fixed;
+    right: 2vh;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+.voltarTopo{
+    position: fixed;
+    bottom: 10vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.voltarTopo:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.2;
+}
+
+.irInicio{
+    position: fixed;
+    bottom: 75vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: burlywood;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irInicio:hover{
+    background-color: darkorange;
+    transition: 0.2;
+}
+
+.irCursos{
+    position: fixed;
+    bottom: 71vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irCursos:hover{
+    background-color: cadetblue;
+    transition: 0.2;
+}
+
+.irContatos{
+    position: fixed;
+    bottom: 67vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: forestgreen;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irContatos:hover{
+    background-color: rgb(2, 94, 2);
+    transition: 0.2;
+}
+
+.irParceiros{
+    position: fixed;
+    bottom: 63vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: salmon;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irParceiros:hover{
+    background-color: rgb(212, 79, 79);
+    transition: 0.2;
+}
+.irMissao{
+    position: fixed;
+    bottom: 59vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: slateblue;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irMissao:hover{
+    background-color: rebeccapurple;
+    transition: 0.2;
+}
+
+.irSobre{
+    position: fixed;
+    bottom: 55vh;
+    right: 2vh;
+    
+    text-decoration: none;
+    color: white;
+    background-color: lightsalmon;
+
+    font-size: 12px;
+    padding: 1vh;
+    transition: 0.2;
+}
+
+.irSobre:hover{
+    background-color: rgb(247, 22, 22);
+    transition: 0.2;
+}
+
+.aside a{
+    position: fixed;
+    left: -5vw;
+    transition: 0.2s;
+    padding: 2vh;
+    width: 4vw;
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 0 15px 15px 0;
+}
+.aside a:hover{
+    left: 0;
+}
+
+#inicio2 {
+    top: 20vh;
+    background-color: blue;
+}
+#cursos2 {
+    top: 27vh;
+    background-color: red;
+}
+#contatos2 {
+    top: 34vh;
+    background-color: black;
+}
+#parceiros2 {
+    top: 41vh;
+    background-color: rgb(28, 134, 33);
+}
+#missao2 {
+    top: 48vh;
+    background-color: violet;
+}
+#sobre2 {
+    top: 55vh;
+    background-color: salmon;
+}
+
